@@ -11,7 +11,11 @@ load_dotenv()
 
 
 app = Flask(__name__)
-CORS(app)  
+
+CORS(
+    app,
+    supports_credentials=True,
+)
 
 client = OpenAI(
     base_url= "https://openrouter.ai/api/v1",
