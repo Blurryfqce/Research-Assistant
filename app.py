@@ -12,7 +12,17 @@ load_dotenv()
 
 app = Flask(__name__)
 
-CORS(app, resources={r"/*": {"origins": "*"}})
+from flask_cors import CORS
+
+CORS(
+    app,
+    supports_credentials=True,
+    origins=[
+        "http://127.0.0.1:5500",
+        "http://localhost:5500",
+        "https://research-assistant.web.app"
+    ]
+)
 
 client = OpenAI(
     base_url= "https://openrouter.ai/api/v1",
