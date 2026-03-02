@@ -20,8 +20,7 @@ CORS(
         "http://127.0.0.1:5500",
         "http://localhost:5500",
         "https://research-assistant.web.app"
-    ]}},
-    supports_credentials=True
+    ]}}
 )
 
 client = OpenAI(
