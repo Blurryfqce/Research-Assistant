@@ -1,0 +1,8 @@
+flask
+flask-cors
+openai
+faiss-cpu
+numpy
+pdfplumber
+python-dotenv
+requests
