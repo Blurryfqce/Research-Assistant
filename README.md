@@ -60,7 +60,7 @@ pip install -r requirement.txt
    -app.py
 
 3. Test App:
-   Api runs on http://127.0.0.1:5000
+   Edit pdf file path in test.py
    Run test.py
 
 License

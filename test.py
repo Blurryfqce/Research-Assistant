@@ -1,6 +1,6 @@
 import requests
 
-BASE_URL = "http://127.0.0.1:5000"
+BASE_URL = "https://research-assistant-p7p2.onrender.com" # api is hosted live here
 PDF_PATH = "parking.pdf"   # Hardcoded PDF file
 
 
